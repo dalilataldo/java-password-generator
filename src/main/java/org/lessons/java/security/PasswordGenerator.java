@@ -24,7 +24,7 @@ Scanner input = new Scanner (System.in);
 
 System.out.println("Digita il tuo nome");
 String name = input.nextLine();
-System.out.println("Digita il tuo conome");
+System.out.println("Digita il tuo cognome");
 String surname = input.nextLine();
 System.out.println("Digita il tuo colore preferito");
 String favColour = input.nextLine();
@@ -36,7 +36,7 @@ System.out.println("Digita il tuo anno di nascita");
 int bornYear = input.nextInt();
 int bornSum = bornDay + bornMonth + bornYear;
 
-System.out.println(name + "-" + surname + "-" + favColour + "-" + bornSum);
+System.out.println("La tua password é:" + "" + name + "-" + surname + "-" + favColour + "-" + bornSum);
 
 	}
 
